@@ -1,0 +1,102 @@
+<mxfile host="Electron" modified="2023-10-19T10:20:45.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="FOXdqQXKiT0x1nZz3_7T" version="22.0.2" type="device">
+  <diagram name="Page-1" id="0LoXqT9s0hvJXFZdFd6L">
+    <mxGraphModel dx="4020" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;Hall&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;Hall number&lt;/p&gt;&amp;nbsp;Reservation times&lt;br&gt;&amp;nbsp;Number of seats&amp;nbsp;&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-170" y="115" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;movie&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;/p&gt;&amp;nbsp;Movie ID&lt;br&gt;&amp;nbsp;Movie name&lt;br&gt;&amp;nbsp;Description&lt;br&gt;&amp;nbsp;Type&lt;br&gt;&amp;nbsp;Date&lt;br&gt;&amp;nbsp;HallIDnum&lt;br&gt;&amp;nbsp;Show time&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;start time&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;end time&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-190" y="610" width="250" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;Tiket&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&amp;nbsp;Tiket ID&lt;/p&gt;&amp;nbsp;Name of the movie&lt;br&gt;&amp;nbsp;Date&lt;br&gt;&amp;nbsp;Time&lt;br&gt;&amp;nbsp;Hall num&lt;br&gt;&amp;nbsp;Price&lt;br&gt;&amp;nbsp;Seat num&lt;br&gt;&amp;nbsp;Remaining num&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-660" y="510" width="250" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;Snack&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;Snack ID&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;Price&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Name&lt;/span&gt;&lt;/p&gt;&amp;nbsp;Quantity Available&lt;br&gt;&amp;nbsp;Quantity to order&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1020" y="760" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-5" value="&lt;br class=&quot;Apple-interchange-newline&quot;&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="880" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;custamer&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&amp;nbsp;ID&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&amp;nbsp;Name&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1020" y="590" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;Bill&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;/p&gt;&amp;nbsp;ID&lt;br&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;total price&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1480" y="230" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;Employee&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;/p&gt;&amp;nbsp;IDnum&lt;br&gt;&amp;nbsp;Name&lt;br&gt;&amp;nbsp;Gender&lt;br&gt;&amp;nbsp;Birthday&lt;br&gt;&amp;nbsp;Phone num&lt;br&gt;&amp;nbsp;Salary&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;-age&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-750" y="60" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="mEAVEtOp78Tz3l7LQ1_5-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;address&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;/p&gt;&amp;nbsp;City&lt;br&gt;&amp;nbsp;Street&lt;br&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=18;fontFamily=Helvetica;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-1490" y="80" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2dQKGp4zyhEjuuc1yUCU-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-9" target="mEAVEtOp78Tz3l7LQ1_5-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1130" y="360" as="sourcePoint" />
+            <mxPoint x="-1080" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-1" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-1" target="mEAVEtOp78Tz3l7LQ1_5-2" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="70" y="590" as="sourcePoint" />
+            <mxPoint x="170" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=0.01;exitY=0.286;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-2" target="mEAVEtOp78Tz3l7LQ1_5-3" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-350" y="630" as="sourcePoint" />
+            <mxPoint x="-390" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-3" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;rounded=0;entryX=-0.018;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.007;exitY=0.104;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-3" target="mEAVEtOp78Tz3l7LQ1_5-8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-730" y="550" as="sourcePoint" />
+            <mxPoint x="-630" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-790" y="473" />
+              <mxPoint x="-770" y="370" />
+              <mxPoint x="-810" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-8" target="mEAVEtOp78Tz3l7LQ1_5-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-310" y="490" as="sourcePoint" />
+            <mxPoint x="-210" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-7" target="mEAVEtOp78Tz3l7LQ1_5-8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-1030" y="1100" as="sourcePoint" />
+            <mxPoint x="-750" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0.002;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-3" target="mEAVEtOp78Tz3l7LQ1_5-6" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-170" y="880" as="sourcePoint" />
+            <mxPoint x="-765" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-765" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-7" target="mEAVEtOp78Tz3l7LQ1_5-6" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-650" y="1050" as="sourcePoint" />
+            <mxPoint x="-60" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NAXWdMC9lGBKWwya888S-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mEAVEtOp78Tz3l7LQ1_5-7" target="mEAVEtOp78Tz3l7LQ1_5-4" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-880" y="1080" as="sourcePoint" />
+            <mxPoint x="-780" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1350" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
