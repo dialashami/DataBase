@@ -1,0 +1,187 @@
+create table cinema."Employee"(
+"EId" character (9) not null ,
+	"EName" text ,
+	"EGender" cinema.gender_type ,
+	"EBirthDay" date ,
+	"EPhone_num" char(10) ,
+	"ESalary " integer ,
+	"EWorking_days" text ,
+	"EWorking_hours" integer,
+	PRIMARY KEY("EId")
+
+);
+***********
+create table cinema."E_H"(
+"EId2" character (9) not null,
+"HId2" character (9) not null,
+primary key ("EId2","HId2")	
+);
+***********
+alter table if exists cinema."e_h"
+add constraint "ee_fk" foreign key ("eid2") references cinema."employee"("eid")
+on delete cascade
+on update cascade
+;
+***********
+alter table if exists cinema."e_h"
+add constraint "hh_fk" foreign key ("hid2") references cinema."hall"("hid")
+on delete cascade
+on update cascade
+;
+
+---------------------------------------
+create table cinema."Hall"(
+"HId" character (9) not null ,
+	"HReservation_time" text ,
+	"Hnum_of_seats " integer ,
+	
+	PRIMARY KEY("HId")
+
+);
+--------------------------------------
+CREATE TABLE  cinema. "movie"               
+(
+"MName" character varying(15) NOT NULL,
+"MId" character(9) NOT NULL,
+"MDate" date,
+"MDescription" character varying(30) NOT NULL,
+"MType" character varying(15) NOT NULL,
+"MShow_time" time,
+	"MStart_time" time,
+	"MEnd_time" time,
+PRIMARY KEY ("M_ID")
+);
+*********
+create table cinema."H_M"(
+"HId2" character (9) not null,
+"MId2" character (9) not null,
+primary key ("HId2","MId2")	
+);
+********
+alter table if exists cinema."H_M"
+add constraint "HH_FK" foreign key ("HId2") references cinema."Hall"("HId");
+********
+alter table if exists cinema."H_M"
+add constraint "MM_FK" foreign key ("MId2") references cinema."Movie"("MId");
+
+
+-------------------------------------------
+create table cinema."Ticket"(
+"TIdd" character (9) not null ,
+	"TName_of_movie" text ,
+	"TDate" date ,
+	"TTime" time ,
+	"TPrice " integer ,
+	"TSeats_num" integer ,
+	"TRemaining_Seats_num " integer,
+"MId" character(9) NOT NULL,
+"EId" character(9) NOT NULL,
+"CGmail" text,
+	PRIMARY KEY("TIdd")
+	
+);
+*******
+alter table if exists cinema."ticket"
+add constraint "fkte" foreign key ("eid") references cinema."employee"("eid")
+on delete cascade
+on update cascade;
+*******
+alter table if exists cinema."ticket"
+add constraint "fktm" foreign key ("mid") references cinema."movie"("mid")
+on delete cascade
+on update cascade;
+********
+
+alter table if exists cinema."ticket"
+add constraint "fktc" foreign key ("cgmail") references cinema."customer"("cgmail")
+on delete cascade
+on update cascade;
+-----------------------------------------
+create table cinema."Customer"(
+"CName" text ,
+"CGmail" text ,
+"CPassword" text,
+	PRIMARY KEY ("CGmail")
+	
+);
+------------------------------------------
+CREATE TABLE cinema."bill3"
+(
+"b_id" SERIAL ,
+"total_price" numeric,
+"c_id"character(9) NOT NULL,
+"e_id"character(9) NOT NULL,
+PRIMARY KEY ("b_id")
+	
+);
+******
+alter table if exists cinema."Bill2"
+add constraint "FKBE" foreign key ("EId") references cinema."Employee"("EId")
+*****
+alter table if exists cinema."Employee"
+add foreign key ("EId") references cinema."Employee"("EId")
+*****
+alter table if exists cinema."Customer"
+add foreign key ("CName") references cinema."Customer"("CName")
+-----------------------------------------
+create table cinema."Snack"(
+"SId" character (9) not null ,
+	"SFood_drink_name" text ,
+	"SPrice " integer,
+	"SQuantity_available" integer,
+	"SQuantity_to_order" integer
+	);
+*******
+create table cinema."B_S"(
+"BId2" character (9) not null,
+"SId2" character (9) not null,
+primary key ("SId2","BId2")	
+);
+*******
+alter table if exists cinema."B_S"
+add constraint "BB_FK" foreign key ("BId2") references cinema."Bill"("BIdd");
+*******
+alter table if exists cinema."B_S"
+add constraint "SS_FK" foreign key ("SId2") references cinema."Snack"("SId");
+
+
++++++++++++++++++++++++++
+alter table if exists cinema."Employee"
+add foreign key ("EId") references cinema."Employee"("EId")
+>>>>>>>>>>>
+alter table if exists cinema."Bill"
+add foreign key ("BId") references cinema."Bill"("BId")
+
+>>>>>
+alter table if exists cinema."Bill"
+add foreign key ("BId") references cinema."Employee"("EId")
+
+>>>>>
+alter table if exists cinema."Customer"
+add foreign key ("CName") references cinema."Customer"("CName")
+++++++++++++++++++++++++++
+
+
+,,,,,,,,,,,,,,
+alter table if exists cinema."Bill2"
+add constraint "FKBE" foreign key ("EId") references cinema."Employee"("EId")
+
+
+
+create table cinema."Administrator"(
+	"AGmail" text ,
+	"APassword" text,
+	Primary key("AGmail")
+	
+	);
+......................................
+alter table if exists cinema."Employee"
+add constraint "EAA_FK" foreign key ("AGmail") references cinema."Administrator"("AGmail");
+.......................................................
+alter table if exists cinema."Administrator"
+add foreign key ("AGmail") references cinema."Administrator"("AGmail")
+................................................
+ALTER TABLE IF EXISTS cinema."Employee"
+ADD  FOREIGN KEY ("AGmail")
+REFERENCES cinema."Administrator" ("AGmail")
+

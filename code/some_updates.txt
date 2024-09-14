@@ -1,0 +1,4 @@
+alter table cinema."Hall"
+alter column HReservation_time
+TYPE time
+USING "Hall.HReservation_time":: text;

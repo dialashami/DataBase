@@ -1,0 +1,185 @@
+INSERT INTO cinema."Ticket2"(
+	"TIdd", "TName_of_movie", "TDate", "TTime", "TPrice ", "TSeats_num", "TRemaining_Seats_num ", "MId", "EId", "CName")
+	VALUES ('104', 'Jai Bhim', '17-3-2024', '9:00-12:30', '23', '40','20','18','3','Mohammed');
+INSERT INTO cinema."Ticket2"(
+	"TIdd", "TName_of_movie", "TDate", "TTime", "TPrice ", "TSeats_num", "TRemaining_Seats_num ", "MId", "EId", "CName")
+	VALUES ('103', 'Alien', '2-3-2024', '5:30-8:30', '80', '100','11','17','3','Saleem');
+INSERT INTO cinema."Ticket2"(
+	"TIdd", "TName_of_movie", "TDate", "TTime", "TPrice ", "TSeats_num", "TRemaining_Seats_num ", "MId", "EId", "CName")
+	VALUES ('102', 'The Lion King', '6-2-2024', '12:00-2:30', '50', '60','3','41','3','Hameed');
+INSERT INTO cinema."Ticket2"(
+	"TIdd", "TName_of_movie", "TDate", "TTime", "TPrice ", "TSeats_num", "TRemaining_Seats_num ", "MId", "EId", "CName")
+	VALUES ('101', 'Inception', '4-2-2024', '3:00-4:30', '30', '60','14','35','3','Farah');
+INSERT INTO cinema."Ticket2"(
+	"TIdd", "TName_of_movie", "TDate", "TTime", "TPrice ", "TSeats_num", "TRemaining_Seats_num ", "MId", "EId", "CName")
+	VALUES ('100', 'The Dark Night', '1-2-2024', '3:00-4:30', '37', '50','12','22','3','Rahaf');
+.............................................................................................................................
+INSERT INTO cinema."B_S"(
+	"BId2", "SId2")
+	VALUES ('96', '900');
+INSERT INTO cinema."B_S"(
+	"BId2", "SId2")
+	VALUES ('74', '800');
+INSERT INTO cinema."B_S"(
+	"BId2", "SId2")
+	VALUES ('111', '700');
+INSERT INTO cinema."B_S"(
+	"BId2", "SId2")
+	VALUES ('544', '600');
+INSERT INTO cinema."B_S"(
+	"BId2", "SId2")
+	VALUES ('544', '600');
+...................................................................................................................
+INSERT INTO cinema."Bill2"(
+	"BIdd", "BTotal_price", "EId", "CName")
+	VALUES ('244','70','1','Hameed');
+INSERT INTO cinema."Bill2"(
+	"BIdd", "BTotal_price", "EId", "CName")
+	VALUES ('544','30','1','Rahaf');
+INSERT INTO cinema."Bill2"(
+	"BIdd", "BTotal_price", "EId", "CName")
+	VALUES ('111','50','2','Farah');
+INSERT INTO cinema."Bill2"(
+	"BIdd", "BTotal_price", "EId", "CName")
+	VALUES ('74','80','1','Saleem');
+INSERT INTO cinema."Bill2"(
+	"BIdd", "BTotal_price", "EId", "CName")
+	VALUES ('96','23','2','Mohammed');
+...................................................................................................................
+INSERT INTO cinema."Customer"(
+	"CGmail",  "CPassword","CName")
+	VALUES ('Rahaf.gmail.com', 'Rahaf12123', 'Rahaf')
+
+INSERT INTO cinema."Customer"(
+	"CGmail",  "CPassword","CName")
+	VALUES ('Farah.gmail.com', 'Farah1212', 'Farah')
+
+INSERT INTO cinema."Customer"(
+	"CGmail",  "CPassword","CName")
+	VALUES ('Hameed.gmail.com', 'Hameed12345@', 'Hameed')
+
+INSERT INTO cinema."Customer"(
+	"CGmail",  "CPassword","CName")
+	VALUES ('Saleem.gmail.com', 'Saleem12345', 'Saleem')
+
+INSERT INTO cinema."Customer"(
+	"CGmail",  "CPassword","CName")
+	VALUES ('Mohammed.gmail.com', 'Mohammed123', 'mohammed')
+...................................................................................................................
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('1', '10');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('2', '10');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('4', '10');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('2', '11');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('5', '11');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('3', '12');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('4', '13');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('5', '13');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('1', '14');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('2', '14');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('1', '15');
+INSERT INTO cinema."E_H"("EId2", "HId2")
+	VALUES ('4', '15');
+...................................................................................................................
+INSERT INTO cinema."Employee"(
+	"EId", "EName", "EGender", "EBirthDay", "EPhone_num", "ESalary ", "EWorking_days", "EWorking_hours")
+	VALUES ('1','kareeem','M','2000-03-10','0568235327','1500','sun-thu','5');
+INSERT INTO cinema."Employee"(
+	"EId", "EName", "EGender", "EBirthDay", "EPhone_num", "ESalary ", "EWorking_days", "EWorking_hours")
+	VALUES ("2","Dana","F","2000-10-13","0599465761","4300","sun-thu","10");
+INSERT INTO cinema."Employee"(
+	"EId", "EName", "EGender", "EBirthDay", "EPhone_num", "ESalary ", "EWorking_days", "EWorking_hours")
+	VALUES ("3","Dima","F","1998-04-16","0536486900","2000","sun-thu","10");
+INSERT INTO cinema."Employee"(
+	"EId", "EName", "EGender", "EBirthDay", "EPhone_num", "ESalary ", "EWorking_days", "EWorking_hours")
+	VALUES ("4","Rema","F","1995-08-18","0598562250","2000","sun-thu","10");
+INSERT INTO cinema."Employee"(
+	"EId", "EName", "EGender", "EBirthDay", "EPhone_num", "ESalary ", "EWorking_days", "EWorking_hours")
+	VALUES ("5","Hamza","M"	,"1997-07-17","0569534766","3000","sun-thu","11");
+
+..................................................................................................................
+INSERT INTO cinema."H_M"(
+	"HId2", "MId2")
+	VALUES ("12","22");
+INSERT INTO cinema."H_M"(
+	"HId2", "MId2")
+	VALUES ("15","35");
+INSERT INTO cinema."H_M"(
+	"HId2", "MId2")
+	VALUES ("14","41");
+INSERT INTO cinema."H_M"(
+	"HId2", "MId2")
+	VALUES ("11","17");
+INSERT INTO cinema."H_M"(
+	"HId2", "MId2")
+	VALUES ("10","18");
+...................................................................................................................
+INSERT INTO cinema."Hall"(
+	"HId", "HReservation_time", "Hnum_of_seats ")
+	VALUES ("10","3:00 - 4:30","50");
+INSERT INTO cinema."Hall"(
+	"HId", "HReservation_time", "Hnum_of_seats ")
+	VALUES ("11","3:00 - 4:30","60");
+INSERT INTO cinema."Hall"(
+	"HId", "HReservation_time", "Hnum_of_seats ")
+	VALUES ("12","12:00pm - 2:30pm","30");
+INSERT INTO cinema."Hall"(
+	"HId", "HReservation_time", "Hnum_of_seats ")
+	VALUES ("13","5:30 - 8:30pm","70");
+
+INSERT INTO cinema."Hall"(
+	"HId", "HReservation_time", "Hnum_of_seats ")
+	VALUES ("14","8:00pm - 10:30pm","80");
+INSERT INTO cinema."Hall"(
+	"HId", "HReservation_time", "Hnum_of_seats ")
+	VALUES ("15","10:00pm - 12:30am","100");
+...................................................................................................................
+INSERT INTO cinema."Movie"(
+	"MId", "MName", "MDescription", "MType", "MDate", "MShow_time", "MStart_time", "MEnd_time")
+	VALUES ("22","The Dark Night","When the menace known as the Joker wreaks havoc, Batman must accept one of the greatest psychological tests ","superhero film","2024-02-01","2024-02-01","03:00:00");
+INSERT INTO cinema."Movie"(
+	"MId", "MName", "MDescription", "MType", "MDate", "MShow_time", "MStart_time", "MEnd_time")
+	VALUES ("35","Inception","A thief who steals corporate secrets  but his tragic past may doom the project",	"ِAction film","2024-02-04","2024-02-04","03:00:00");
+INSERT INTO cinema."Movie"(
+	"MId", "MName", "MDescription", "MType", "MDate", "MShow_time", "MStart_time", "MEnd_time")
+	VALUES ("41","The Lion King","Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.","Animation film","2024-02-06","2024-02-06","12:00:00");
+INSERT INTO cinema."Movie"(
+	"MId", "MName", "MDescription", "MType", "MDate", "MShow_time", "MStart_time", "MEnd_time")
+	VALUES ("17","Alien","The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission.","Horror film","2024-03-02","2024-03-02","05:30:00");
+INSERT INTO cinema."Movie"(
+	"MId", "MName", "MDescription", "MType", "MDate", "MShow_time", "MStart_time", "MEnd_time")
+	VALUES ("18","Jai Bhim","When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.","Mysterious film","2024-03-17","2024-03-17","08:00:00");
+...................................................................................................................
+
+INSERT INTO cinema."Snack"(
+	"SId", "SFood_drink_name", "SPrice ", "SQuantity_available", "SQuantity_to_order")
+	VALUES ("500","Popcorn","25","48","2");
+INSERT INTO cinema."Snack"(
+	"SId", "SFood_drink_name", "SPrice ", "SQuantity_available", "SQuantity_to_order")
+	VALUES ("600","Cookies","10","17","4");
+INSERT INTO cinema."Snack"(
+	"SId", "SFood_drink_name", "SPrice ", "SQuantity_available", "SQuantity_to_order")
+	VALUES ("700","Chips","3","20","2");
+INSERT INTO cinema."Snack"(
+	"SId", "SFood_drink_name", "SPrice ", "SQuantity_available", "SQuantity_to_order")
+	VALUES ("800","juice","3","40","4");
+INSERT INTO cinema."Snack"(
+	"SId", "SFood_drink_name", "SPrice ", "SQuantity_available", "SQuantity_to_order")
+	VALUES ("900","M&Ms","5","33","2");
+
+
+....................................................................................................................
+INSERT INTO cinema."Administrator"(
+	"AGmail", "APassword")
+	VALUES ('diala', '123');
+
